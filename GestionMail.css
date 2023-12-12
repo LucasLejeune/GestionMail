@@ -1,0 +1,104 @@
+.InpCUser{
+  background-color: lightgrey;
+  height: 35px;
+  width: 500px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+input::placeholder{
+  color: black;
+}
+
+.ValidButton{
+  background-color: lightgrey;
+  height: 25px;
+  width: 100px;
+}
+
+.ValidButton:hover{
+  background-color: white;
+}
+
+#MonCompte{
+  position: fixed;
+  right: 10px;
+}
+
+#ButtonLogin, #ValidCclient{
+  border-radius: 25px;
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
+}
+
+.ImpLogin, #InpClient{
+  width: 800px;
+  height: 35px;
+  background-color: lightgrey;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  width: 700px;
+}
+
+th{
+  background-color: lightgrey;
+}
+
+th, td{
+  height: 30px;
+}
+
+#creationClient{
+  display: none;
+}
+
+#boutonAdd{
+  border-radius: 25px;
+  font-size: 15px;
+  width: 150px;
+  height: 30px;
+}
+
+#Fermer{
+  border: none;
+  background-color: white;
+  position: fixed;
+  right: 20.3%;
+  top: 20.3%;
+}
+
+#creationClient{
+  border: 1px solid black;
+  background-color: white;
+  position: fixed;
+  right: 20%;
+  left: 20%;
+  top: 20%;
+  bottom: 40%;
+}
+
+#addProj{
+  display: none;
+  border: 1px solid black;
+  background-color: white;
+  position: fixed;
+  right: 20%;
+  left: 20%;
+  top: 20%;
+  bottom: 40%;
+}
